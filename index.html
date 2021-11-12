@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Why BootStrap and Sass?</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="code-image-container my-3 d-flex justify-content-between align-items-center">
+      <img src="./img/html.png" alt="html">
+      <img src="./img/css.png" alt="css">
+      <img src="./img/sass.png" alt="sass">
+      <img src="./img/bootstrap.png" alt="bootstrap">
+      <img src="./img/js.png" alt="js">
+    </div>
+  </div>
+
+  <div class="container">
+    <header id="main-header">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-5">
+          <img src="img/BsSass.jpg" alt="Bootstrap & Sass">
+        </div>
+        <div class="col-lg-8 col-md-7">
+          <div class="d-flex flex-column">
+            <div class="py-5 px-4 bg-dark text-white">
+              <div class="d-flex flex-row justify-content-between align-items-center">
+                <h1 class="display-3">Bootstrap & Sass</h1>
+              </div>
+            </div>
+
+            <div class="p-4 bg-black">
+              <p class="lead mb-0">CSS Superpowers</p>
+            </div>
+
+            <div>
+              <div class="d-flex flex-row text-white align-items-stretch text-center">
+                <div class="header-item p-4 bg-pink" data-toggle="collapse" data-target="#sass">
+                  <i class="fab fa-sass fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Sass</span>
+                </div>
+                <div class="header-item p-4 bg-violet" data-toggle="collapse" data-target="#bootstrap">
+                  <i class="fab fa-bootstrap fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Bootstrap</span>
+                </div>
+                <div class="header-item p-4 bg-primary" data-toggle="collapse" data-target="#info">
+                  <i class="fas fa-info fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">Why Them?</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sass -->
+    <div id="sass" class="collapse show">
+      <div class="card card-body bg-pink text-white py-5">
+        <h2>Welcome to Sass</h2>
+        <p class="lead mb-0">Sass is a CSS pre-compiler that provides you with great uses.</p>
+      </div>
+
+      <div class="card card-body py-5">
+        <div class="content">
+          <h3>What is Sass?</h3>
+          <hr>
+          <p>Sass - Syntactically Awesome Style Sheets - is a open-source preprocessor scripting language that is either interpreted or compiled into Cascading Style Sheets (CSS). While Sass is a pre-compiler, SassScript is the scripting language. Sass is an extension to Vanilla CSS, and fully compatible with all versions of CSS. It was designed by Hampton Catlin and developed by Natalie Weizenbaum in 2006. Before you learn this language, you should at least have a basic understanding of HTML and CSS though.</p>
+          <h3 class="mt-4">How to use Sass?</h3>
+          <hr>
+          <p>As mentioned, unless Sass is compiled into Vanilla CSS, a browser cannot read it. There are several ways of compiling this language, but three of them are by far the most popular and efficient.
+          </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">1. Using NPM(Node Package Manager); you first download the Node JS application from <a href="http://nodejs.org/" target="_blank" rel="noopener noreferrer">NodeJS.org</a> . It is complicated enough for most beginners, so watch <a href="https://m.youtube.com/watch?=liekEtKbhxk" rel="noopener noreferrer">this youtube video.</a></li>
+            <li class="list-group-item">2. By installing 'Koala GUI App'. It is a visual application, so it is really easy to compile Sass with this app. Download it at <a href="http://koala-app.com/" target="_blank" rel="noopener noreferrer">koala-app.com</a></li>
+            <li class="list-group-item">3. If you are using VS Code, I definitely recommend using its extension named <strong>Live Sass Compiler</strong> by <em>Retwick Dey</em>, who is also a developer of Live Server. I personally create Sass projects with it, so I guarantee this extension is worth using.</li>
+          </ul>
+
+          <h3 class="mt-4">Its Syntax</h3>
+          <hr>
+          <p>Sass pre-compiler is divided into two types of file extensions in terms of its syntax: <strong>style.sass and style.scss</strong> . The former uses indentation to write code blocks like Python, whereas the latter looks similar to CSS and uses curly brackets and semi-colons(That's why its full name is SassyCSS!). Both may be best for different developers depending on their preferance for indents or brackets. However, their functionality is the same.</p>
+          <img src="./img/Scss.png" alt="Differnce between .sass, .scss, and .css">
+          <small class="text-muted">Differnce between .sass, .scss, and .css</small>
+
+          <h3 class="mt-4">Where to Learn Sass?</h3>
+          <hr>
+          <p>The full documentation of this language can be found at <a href="http://sass-lang" target="_blank" rel="noopener noreferrer">sass-lang.com</a>. There you can get a grasp of this superpower. Additional youtube videos are really useful: <a href="https://m.youtube.com/watch?=_a5j7KoflTs"target="_blank" rel="noopener noreferrer">Sass Crash Course by <strong>codeSTACKr</strong></a> and <a href="https://m.youtube.com/watch?=nu5mdN2JIwM"target="_blank" rel="noopener noreferrer">Sass Crash Course by <strong>Traversy Media</strong></a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <div id="bootstrap" class="collapse">
+      <div class="card card-body bg-violet py-5">
+        <h2>Welcome to Bootstrap!</h2>
+        <p class="lead mb-0">Bootstrap is by far the most popular CSS framework, based on Sass.</p>
+      </div>
+
+      <div class="card card-body py-5">
+        <div class="content">
+          <h3>What is Bootstrap?</h3>
+          <hr>
+          <p>Bootstrap is an open-source framework that is designed to speed up front-end development. Since it uses pre-made HTML and CSS templates and classes, there is no need to build everything from scratch, which is true to Vanilla CSS. Accordingly, using Bootstrap makes it not only fast, but also much, much <em>easier</em> to create front-end UIs and layouts. This framework also includes several JS plugins: modals, collapses, accordions, and some more. This little collapse module is also created with Bootstrap Collapse Module! Another reason for its popularity is that it uses an efficient way of making UIs responsive, that is, <strong>mobile-first.</strong></p>
+
+          <h3 class="mt-4">How to use Bootstrap?</h3>
+          <hr>
+          <p>Bootstrap is a third-party library, so it should be included in your page in one of the thre following ways:</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">1. Include the CDN (Content Delivery Network) at <a href="http://www.cdjs.com/" target="_blank" rel="noopener noreferrer">cdnjs.com</a>. It is the most reliable way and fastest way of using Bootstrap and its classes. If you want to use JS plugins as well, you should include bootstrap JS script at the bottom of your body tag. It is definitely recommended unless you want to customize Bootstrap - its colors, widths, grid-system, and other classes.</li>
+            <li class="list-group-item">2. Download & Include compiled Sass and JS Files at <a href="http://getbootstrap.com/docs/5.0/getting-started/download/" target="_blank" rel="noopener noreferrer">bootstrap.com</a>. If you are not using Bootstrap for very big projects, you need to customize your layouts, then i recommend using Bootsrap this way. It has become to make changes to Bootstrap 5.0.2 as it released its <strong>Utilities API.</strong>. This <a href="https://m.youtube.com/watch?=I7CfaDYzTVM" target="_blank" rel="noopener noreferrer">video by Traversy Media</a> shows how to achieve this.</li>
+            <li class="list-group-item">3. Use NPM (Node Package Manager). It is similar to that of Sass.</li>
+          </ul>
+
+          <h3 class="mt-4">Core Features</h3>
+          <hr>
+          <p>In Bootstrap, you have a broad range of CSS components. They can be divided into 3 groups</p>
+          <div class="table-responsive">
+            <table class="table table-striped table-borderless">
+              <thead class="thead-dark">
+                <tr>
+                  <th>#</th>
+                  <th>Utilities</th>
+                  <th>CSS Components</th>
+                  <th>Grid System & Flexbox</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Typography</td>
+                  <td>Tables</td>
+                  <td>Grid</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Colors</td>
+                  <td>Buttons</td>
+                  <td>Alignment</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Spacing</td>
+                  <td>Navbars</td>
+                  <td>Flex</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Sizing</td>
+                  <td>Lists</td>
+                  <td>Flexbox Alignment</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Borders</td>
+                  <td>Cards</td>
+                  <td>Auto Margin</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 class="mt-4">Where to Learn?</h3>
+          <hr>
+          <p>I would say the Bootstrap documentation is a great source with relevant examples at <a href="http://" target="_blank" rel="noopener noreferrer">bootstrap.com</a>. You can learn that on Youtube and other tutorials too.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info -->
+    <div id="info" class="collapse">
+      <div class="card card-body bg-primary text-white py-5">
+        <h2>Why use them both?</h2>
+        <p class="lead mb-0">Reasons for the use of Sass and Bootstrap</p>
+      </div>
+
+      <div class="card card-body py-5">
+        <div class="content">
+          <h3>Advantages of Sass</h3>
+          <hr>
+          <p>There are many advantages in using this language; once you get the grasp of Sass, I have every reason to believe, you probably won't go back to Vanilla CSS.</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Sass contains <strong>nesting</strong> just like that in HTML. If nested, it becomes much easier to locate, change, and work with styles.</li>
+            <li class="list-group-item">Styles written in Sass are compiled into several browser formats( excluding <em>IE</em> ). This means that this framework is <strong>far more compatible</strong> with browsers compared to pure CSS. Although you can do this in your file, it can become tiring.</li>
+            <li class="list-group-item">Sass includes a super way of building a project <em>tree</em>.  It includes <strong>partials</strong>, and this enables you to separate different styles into different files. For example, one file for buttons, another for tables, yet another for logins. It makes your code much clean and efficient.</li>
+            <li class="list-group-item">As said before, Sass is like a <strong>dynamic language</strong>, that is, there are functions, mix-ins, loops, built-in functions for a variety of components; <em>lighten($primary-color, 50%)</em> is one to illustrate. There is little need, I hope, to explain their benefits for us.</li>
+          </ul>
+
+          <h3 class="mt-4">Why Bootstrap?</h3>
+          <hr>
+          <p>A quick fact: Bootstrap's styles are built on Sass, and can be customized by Sass. Bootstrap is very efficient and fast. It is especially handy for those that lack design skills and deal mainly with backend development.</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Bootstrap is a set of pre-defined or <strong>utility classes</strong> ; you don't create anything from scratch. That means building faster with little involvement in CSS.</li>
+            <li class="list-group-item">A good and experienced designer can easily make layouts very responsive as well as user experience amazing. The same can be said about one in Bootstrap. You don't have to worry much about responsiveness, which is a <strong>big plus</strong>.</li>
+            <li class="list-group-item">Bootstrap's design is satisfactory though <em>not the best</em> in the world. If your team or you cannot afford a designer, Bootstrap is a good choice for that.</li>
+            <li class="list-group-item">A big jump from a static website to a dynamic one offers Bootstrap. It includes several JS plugins: accordion, dropdown, modals, carousel, tooltips, and some more. It is not hard to implement them, thereby giving your page a dynamic state.</li>
+          </ul>
+
+          <h3 class="mt-4">So, what then?</h3>
+          <hr>
+          <p>It is totally up to your preferances what to use. But given the advantages, the two frameworks can boost your efficiency and it is good considering this. </p>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="p-4 bg-dark text-white text-center">
+      <p class="mb-0">Copyright &copy;; <span id="year"></span> by <strong>Hojiakbar</strong></p>
+    </footer>
+  </div>
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+  <script>
+    // Current Year
+    $('#year').text(new Date().getFullYear());
+
+    // Collapse
+    $('.header-item').click(function () {
+      $('.collapse').collapse('hide');
+    });
+  </script>
+</body>
+
+</html>

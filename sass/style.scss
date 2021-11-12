@@ -1,0 +1,78 @@
+$overlay-color: #f9f8fa;
+
+body {
+  overflow-x: auto !important;
+  background: linear-gradient(to right, rgba($overlay-color, 0.6)),
+    url('../img/light.jpg') center center/cover no-repeat fixed;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3,
+h4 {
+  font-weight: 500 !important;
+}
+
+.code-image-container {
+  img {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+#main-header {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .header-item {
+    width: 40%;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}
+
+.content {
+  width: 80% !important;
+  text-align: justify !important;
+  margin: 0 auto !important;
+
+  h3 {
+    font-size: 2.5rem;
+    width: 80% !important;
+    text-align: left !important;
+    margin-right: 0 !important;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.bg {
+  &-black {
+    background: #000;
+    color: #fff;
+  }
+
+  &-violet {
+    background: #401f7c;
+    color: #fff;
+  }
+
+  &-pink {
+    background: #cd6799;
+    color: #fff;
+  }
+}
+
+@import './responsive';
